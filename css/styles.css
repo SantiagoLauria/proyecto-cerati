@@ -30,6 +30,7 @@ header div .amor-amarillo:hover {
   background: -moz-linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
   background: -webkit-linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
   background: linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
+  text-shadow: white 1px 1px 5px;
 }
 header div .amor-amarillo:hover a {
   color: black;
@@ -38,6 +39,7 @@ header div .bocanada:hover {
   background: -moz-radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
   background: -webkit-radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
   background: radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
+  text-shadow: black 1px 1px 5px;
 }
 header div .bocanada:hover a {
   color: white;
@@ -46,8 +48,29 @@ header div .siempre-es-hoy:hover {
   background: -moz-linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
   background: -webkit-linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
   background: linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
+  text-shadow: white 1px 1px 5px;
 }
 header div .siempre-es-hoy:hover a {
+  color: black;
+}
+header div .ahi-vamos:hover {
+  background: rgb(219, 216, 215);
+  background: -moz-radial-gradient(circle, rgb(219, 216, 215) 0%, rgb(32, 27, 26) 100%);
+  background: -webkit-radial-gradient(circle, rgb(219, 216, 215) 0%, rgb(32, 27, 26) 100%);
+  background: radial-gradient(circle, rgb(219, 216, 215) 0%, rgb(32, 27, 26) 100%);
+  text-shadow: white 1px 1px 5px;
+}
+header div .ahi-vamos:hover a {
+  color: black;
+}
+header div .fuerza-natural:hover {
+  background: rgb(81, 75, 58);
+  background: -moz-linear-gradient(90deg, rgb(81, 75, 58) 0%, rgb(164, 147, 116) 35%, rgb(168, 127, 81) 65%, rgb(92, 95, 74) 100%);
+  background: -webkit-linear-gradient(90deg, rgb(81, 75, 58) 0%, rgb(164, 147, 116) 35%, rgb(168, 127, 81) 65%, rgb(92, 95, 74) 100%);
+  background: linear-gradient(90deg, rgb(81, 75, 58) 0%, rgb(164, 147, 116) 35%, rgb(168, 127, 81) 65%, rgb(92, 95, 74) 100%);
+  text-shadow: white 1px 1px 5px;
+}
+header div .fuerza-natural:hover a {
   color: black;
 }
 
