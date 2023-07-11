@@ -1,0 +1,54 @@
+img {
+  width: 100%;
+}
+
+.logo {
+  max-width: 30px;
+}
+
+header div .icon {
+  filter: grayscale(100);
+  width: 32px;
+  border: solid 1px white;
+  border-radius: 50%;
+}
+header div .icon:hover {
+  filter: none;
+}
+header div i {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+header div i:hover {
+  color: #1DB954;
+}
+header div ul li {
+  border-radius: 9px;
+}
+header div .amor-amarillo:hover {
+  background: -moz-linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
+  background: -webkit-linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
+  background: linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
+}
+header div .amor-amarillo:hover a {
+  color: black;
+}
+header div .bocanada:hover {
+  background: -moz-radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
+  background: -webkit-radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
+  background: radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
+}
+header div .bocanada:hover a {
+  color: white;
+}
+header div .siempre-es-hoy:hover {
+  background: -moz-linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
+  background: -webkit-linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
+  background: linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
+}
+header div .siempre-es-hoy:hover a {
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
