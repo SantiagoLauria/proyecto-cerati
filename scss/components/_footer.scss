@@ -1,0 +1,64 @@
+footer {
+  ul {
+
+    li {
+      .nav-link {
+        color: white;
+
+        .icon {
+          filter: grayscale(100);
+          width: 34px;
+          border: solid 1px white;
+          border-radius: 50%;
+
+          &:hover,
+          &:active {
+            filter: none;
+          }
+        }
+
+        i {
+          font-size: 2rem;
+        }
+      }
+
+    }
+
+    .icon-fb a {
+
+      &:hover,
+      &:active {
+        color: #4267B2;
+      }
+    }
+
+    .icon-tw a {
+      &:hover {
+        color: #1DA1F2;
+      }
+    }
+
+    .icon-ig a {
+      &:hover {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+      }
+    }
+
+    .icon-yt a {
+      &:hover {
+        color: #FF0000;
+      }
+    }
+
+    .icon-sp a {
+      &:hover {
+        color: #1DB954;
+      }
+    }
+
+  }
+}

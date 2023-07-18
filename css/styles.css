@@ -1,77 +1,131 @@
 img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 80vh;
 }
 
-.logo {
+header .logo {
   max-width: 30px;
 }
 
-header div .icon {
+div .icon {
   filter: grayscale(100);
-  width: 32px;
+  width: 34px;
   border: solid 1px white;
   border-radius: 50%;
 }
-header div .icon:hover {
+div .icon:hover {
   filter: none;
 }
-header div i {
+div i {
   text-decoration: none;
   color: white;
   font-size: 2rem;
 }
-header div i:hover {
+div i:hover {
   color: #1DB954;
 }
-header div ul li {
+div ul li {
   border-radius: 9px;
 }
-header div .amor-amarillo:hover {
+div .amor-amarillo:hover {
   background: -moz-linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
   background: -webkit-linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
   background: linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
   text-shadow: white 1px 1px 5px;
 }
-header div .amor-amarillo:hover a {
+div .amor-amarillo:hover a {
   color: black;
 }
-header div .bocanada:hover {
+div .bocanada:hover {
   background: -moz-radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
   background: -webkit-radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
   background: radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
   text-shadow: black 1px 1px 5px;
 }
-header div .bocanada:hover a {
+div .bocanada:hover a {
   color: white;
 }
-header div .siempre-es-hoy:hover {
+div .siempre-es-hoy:hover {
   background: -moz-linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
   background: -webkit-linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
   background: linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
   text-shadow: white 1px 1px 5px;
 }
-header div .siempre-es-hoy:hover a {
+div .siempre-es-hoy:hover a {
   color: black;
 }
-header div .ahi-vamos:hover {
+div .ahi-vamos:hover {
   background: rgb(219, 216, 215);
   background: -moz-radial-gradient(circle, rgb(219, 216, 215) 0%, rgb(32, 27, 26) 100%);
   background: -webkit-radial-gradient(circle, rgb(219, 216, 215) 0%, rgb(32, 27, 26) 100%);
   background: radial-gradient(circle, rgb(219, 216, 215) 0%, rgb(32, 27, 26) 100%);
   text-shadow: white 1px 1px 5px;
 }
-header div .ahi-vamos:hover a {
+div .ahi-vamos:hover a {
   color: black;
 }
-header div .fuerza-natural:hover {
+div .fuerza-natural:hover {
   background: rgb(81, 75, 58);
   background: -moz-linear-gradient(90deg, rgb(81, 75, 58) 0%, rgb(164, 147, 116) 35%, rgb(168, 127, 81) 65%, rgb(92, 95, 74) 100%);
   background: -webkit-linear-gradient(90deg, rgb(81, 75, 58) 0%, rgb(164, 147, 116) 35%, rgb(168, 127, 81) 65%, rgb(92, 95, 74) 100%);
   background: linear-gradient(90deg, rgb(81, 75, 58) 0%, rgb(164, 147, 116) 35%, rgb(168, 127, 81) 65%, rgb(92, 95, 74) 100%);
   text-shadow: white 1px 1px 5px;
 }
-header div .fuerza-natural:hover a {
+div .fuerza-natural:hover a {
   color: black;
+}
+
+.div-iconos {
+  display: none !important;
+}
+
+@media (min-width: 992px) {
+  .titulo-principal {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .div-iconos {
+    display: flex !important;
+  }
+}
+@media (min-width: 1350px) {
+  .titulo-principal {
+    display: inline-block;
+  }
+}
+footer ul li .nav-link {
+  color: white;
+}
+footer ul li .nav-link .icon {
+  filter: grayscale(100);
+  width: 34px;
+  border: solid 1px white;
+  border-radius: 50%;
+}
+footer ul li .nav-link .icon:hover, footer ul li .nav-link .icon:active {
+  filter: none;
+}
+footer ul li .nav-link i {
+  font-size: 2rem;
+}
+footer ul .icon-fb a:hover, footer ul .icon-fb a:active {
+  color: #4267B2;
+}
+footer ul .icon-tw a:hover {
+  color: #1DA1F2;
+}
+footer ul .icon-ig a:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer ul .icon-yt a:hover {
+  color: #FF0000;
+}
+footer ul .icon-sp a:hover {
+  color: #1DB954;
 }
 
 /*# sourceMappingURL=styles.css.map */
