@@ -3,6 +3,10 @@ img {
   max-height: 80vh;
 }
 
+main {
+  margin-top: 2rem;
+}
+
 header .logo {
   max-width: 30px;
 }
@@ -24,55 +28,8 @@ div i {
 div i:hover {
   color: #1DB954;
 }
-div ul li {
+div ul li a {
   border-radius: 9px;
-}
-div .amor-amarillo:hover {
-  background: -moz-linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
-  background: -webkit-linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
-  background: linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
-  text-shadow: white 1px 1px 5px;
-}
-div .amor-amarillo:hover a {
-  color: black;
-}
-div .bocanada:hover {
-  background: -moz-radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
-  background: -webkit-radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
-  background: radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
-  text-shadow: black 1px 1px 5px;
-}
-div .bocanada:hover a {
-  color: white;
-}
-div .siempre-es-hoy:hover {
-  background: -moz-linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
-  background: -webkit-linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
-  background: linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
-  text-shadow: white 1px 1px 5px;
-}
-div .siempre-es-hoy:hover a {
-  color: black;
-}
-div .ahi-vamos:hover {
-  background: rgb(219, 216, 215);
-  background: -moz-radial-gradient(circle, rgb(219, 216, 215) 0%, rgb(32, 27, 26) 100%);
-  background: -webkit-radial-gradient(circle, rgb(219, 216, 215) 0%, rgb(32, 27, 26) 100%);
-  background: radial-gradient(circle, rgb(219, 216, 215) 0%, rgb(32, 27, 26) 100%);
-  text-shadow: white 1px 1px 5px;
-}
-div .ahi-vamos:hover a {
-  color: black;
-}
-div .fuerza-natural:hover {
-  background: rgb(81, 75, 58);
-  background: -moz-linear-gradient(90deg, rgb(81, 75, 58) 0%, rgb(164, 147, 116) 35%, rgb(168, 127, 81) 65%, rgb(92, 95, 74) 100%);
-  background: -webkit-linear-gradient(90deg, rgb(81, 75, 58) 0%, rgb(164, 147, 116) 35%, rgb(168, 127, 81) 65%, rgb(92, 95, 74) 100%);
-  background: linear-gradient(90deg, rgb(81, 75, 58) 0%, rgb(164, 147, 116) 35%, rgb(168, 127, 81) 65%, rgb(92, 95, 74) 100%);
-  text-shadow: white 1px 1px 5px;
-}
-div .fuerza-natural:hover a {
-  color: black;
 }
 
 .div-iconos {
@@ -103,29 +60,71 @@ footer ul li .nav-link .icon {
   border: solid 1px white;
   border-radius: 50%;
 }
-footer ul li .nav-link .icon:hover, footer ul li .nav-link .icon:active {
+footer ul li .nav-link .icon:hover, footer ul li .nav-link .icon:active, footer ul li .nav-link .icon:focus {
   filter: none;
 }
 footer ul li .nav-link i {
   font-size: 2rem;
 }
-footer ul .icon-fb a:hover, footer ul .icon-fb a:active {
+footer ul .icon-fb a:hover, footer ul .icon-fb a:active, footer ul .icon-fb a:focus {
   color: #4267B2;
 }
-footer ul .icon-tw a:hover {
+footer ul .icon-tw a:hover, footer ul .icon-tw a:focus {
   color: #1DA1F2;
 }
-footer ul .icon-ig a:hover {
+footer ul .icon-ig a:hover, footer ul .icon-ig a:focus {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-footer ul .icon-yt a:hover {
+footer ul .icon-yt a:hover, footer ul .icon-yt a:focus {
   color: #FF0000;
 }
-footer ul .icon-sp a:hover {
+footer ul .icon-sp a:hover, footer ul .icon-sp a:focus {
   color: #1DB954;
+}
+
+.amor-amarillo:hover {
+  color: black;
+  background: -moz-linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
+  background: -webkit-linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
+  background: linear-gradient(180deg, rgb(242, 212, 0) 40%, rgb(254, 165, 9) 60%);
+  text-shadow: white 1px 1px 5px;
+}
+
+.bocanada:hover {
+  color: white;
+  background: -moz-radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
+  background: -webkit-radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
+  background: radial-gradient(circle, rgb(97, 185, 215) 0%, rgb(60, 110, 183) 74%);
+  text-shadow: black 1px 1px 5px;
+}
+
+.siempre-es-hoy:hover {
+  color: black;
+  background: -moz-linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
+  background: -webkit-linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
+  background: linear-gradient(180deg, rgb(209, 204, 206) 46%, rgb(218, 101, 86) 85%, rgb(206, 77, 76) 100%);
+  text-shadow: white 1px 1px 5px;
+}
+
+.ahi-vamos:hover {
+  color: black;
+  background: rgb(219, 216, 215);
+  background: -moz-radial-gradient(circle, rgb(219, 216, 215) 0%, rgb(32, 27, 26) 100%);
+  background: -webkit-radial-gradient(circle, rgb(219, 216, 215) 0%, rgb(32, 27, 26) 100%);
+  background: radial-gradient(circle, rgb(219, 216, 215) 0%, rgb(32, 27, 26) 100%);
+  text-shadow: white 1px 1px 5px;
+}
+
+.fuerza-natural:hover {
+  color: black;
+  background: rgb(81, 75, 58);
+  background: -moz-linear-gradient(90deg, rgb(81, 75, 58) 0%, rgb(164, 147, 116) 35%, rgb(168, 127, 81) 65%, rgb(92, 95, 74) 100%);
+  background: -webkit-linear-gradient(90deg, rgb(81, 75, 58) 0%, rgb(164, 147, 116) 35%, rgb(168, 127, 81) 65%, rgb(92, 95, 74) 100%);
+  background: linear-gradient(90deg, rgb(81, 75, 58) 0%, rgb(164, 147, 116) 35%, rgb(168, 127, 81) 65%, rgb(92, 95, 74) 100%);
+  text-shadow: white 1px 1px 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */

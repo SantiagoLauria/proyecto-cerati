@@ -12,7 +12,8 @@ footer {
           border-radius: 50%;
 
           &:hover,
-          &:active {
+          &:active,
+          &:focus {
             filter: none;
           }
         }
@@ -27,19 +28,24 @@ footer {
     .icon-fb a {
 
       &:hover,
-      &:active {
+      &:active,
+      &:focus {
         color: #4267B2;
       }
     }
 
     .icon-tw a {
-      &:hover {
+
+      &:hover,
+      &:focus {
         color: #1DA1F2;
       }
     }
 
     .icon-ig a {
-      &:hover {
+
+      &:hover,
+      &:focus {
         background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
         -webkit-background-clip: text;
         background-clip: text;
@@ -49,13 +55,17 @@ footer {
     }
 
     .icon-yt a {
-      &:hover {
+
+      &:hover,
+      &:focus {
         color: #FF0000;
       }
     }
 
     .icon-sp a {
-      &:hover {
+
+      &:hover,
+      &:focus {
         color: #1DB954;
       }
     }

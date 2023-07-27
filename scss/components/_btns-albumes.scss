@@ -1,0 +1,53 @@
+.amor-amarillo {
+
+  &:hover {
+    color: black;
+    background: -moz-linear-gradient(180deg, rgba(242, 212, 0, 1) 40%, rgba(254, 165, 9, 1) 60%);
+    background: -webkit-linear-gradient(180deg, rgba(242, 212, 0, 1) 40%, rgba(254, 165, 9, 1) 60%);
+    background: linear-gradient(180deg, rgba(242, 212, 0, 1) 40%, rgba(254, 165, 9, 1) 60%);
+    text-shadow: white 1px 1px 5px;
+  }
+}
+
+.bocanada {
+
+  &:hover {
+    color: white;
+    background: -moz-radial-gradient(circle, rgba(97, 185, 215, 1) 0%, rgba(60, 110, 183, 1) 74%);
+    background: -webkit-radial-gradient(circle, rgba(97, 185, 215, 1) 0%, rgba(60, 110, 183, 1) 74%);
+    background: radial-gradient(circle, rgba(97, 185, 215, 1) 0%, rgba(60, 110, 183, 1) 74%);
+    text-shadow: black 1px 1px 5px;
+  }
+}
+
+.siempre-es-hoy {
+  &:hover {
+    color: black;
+    background: -moz-linear-gradient(180deg, rgba(209, 204, 206, 1) 46%, rgba(218, 101, 86, 1) 85%, rgba(206, 77, 76, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(209, 204, 206, 1) 46%, rgba(218, 101, 86, 1) 85%, rgba(206, 77, 76, 1) 100%);
+    background: linear-gradient(180deg, rgba(209, 204, 206, 1) 46%, rgba(218, 101, 86, 1) 85%, rgba(206, 77, 76, 1) 100%);
+    text-shadow: white 1px 1px 5px;
+  }
+}
+
+.ahi-vamos {
+  &:hover {
+    color: black;
+    background: rgb(219, 216, 215);
+    background: -moz-radial-gradient(circle, rgba(219, 216, 215, 1) 0%, rgba(32, 27, 26, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(219, 216, 215, 1) 0%, rgba(32, 27, 26, 1) 100%);
+    background: radial-gradient(circle, rgba(219, 216, 215, 1) 0%, rgba(32, 27, 26, 1) 100%);
+    text-shadow: white 1px 1px 5px;
+  }
+}
+
+.fuerza-natural {
+  &:hover {
+    color: black;
+    background: rgb(81, 75, 58);
+    background: -moz-linear-gradient(90deg, rgba(81, 75, 58, 1) 0%, rgba(164, 147, 116, 1) 35%, rgba(168, 127, 81, 1) 65%, rgba(92, 95, 74, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(81, 75, 58, 1) 0%, rgba(164, 147, 116, 1) 35%, rgba(168, 127, 81, 1) 65%, rgba(92, 95, 74, 1) 100%);
+    background: linear-gradient(90deg, rgba(81, 75, 58, 1) 0%, rgba(164, 147, 116, 1) 35%, rgba(168, 127, 81, 1) 65%, rgba(92, 95, 74, 1) 100%);
+    text-shadow: white 1px 1px 5px;
+  }
+}
