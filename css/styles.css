@@ -4,7 +4,12 @@ img {
 }
 
 main {
-  margin-top: 2rem;
+  margin-top: 3rem;
+}
+@media (min-width: 1200px) {
+  main {
+    margin-top: 4rem;
+  }
 }
 
 header .logo {
