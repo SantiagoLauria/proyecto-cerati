@@ -4,6 +4,10 @@ const swiper = new Swiper(".swiper", {
   direction: "horizontal",
   spaceBetween: 10,
   loop: true,
+  // autoplay: {
+  //   delay: 2500,
+  //   disableOnInteraction: true,
+  // },
   breakpoints: {
     490: {
       slidesPerView: 2,

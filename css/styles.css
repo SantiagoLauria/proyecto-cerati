@@ -1,6 +1,7 @@
 img {
   max-width: 100%;
   max-height: 80vh;
+  aspect-ratio: 1/1;
 }
 
 main {
@@ -37,8 +38,14 @@ div ul li a {
   border-radius: 9px;
 }
 
-.card{
-  width: 18rem;
+.tarjetas__seccion{
+  margin-top: 2rem;
+  display: flex;
+  /* align-items: center; */
+}
+.card-body p{
+  height: 10rem;
+
 }
 
 .div-iconos {
