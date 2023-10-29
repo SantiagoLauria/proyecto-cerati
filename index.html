@@ -7,6 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/styles.css">
 
   <title>Gustavo Cerati</title>
@@ -78,54 +79,57 @@
     </section>
 
     <!-- Sección que abarca las tarjetas -->
-    <section class="tarjetas__seccion">
-      <div class="card" style="width: 18rem;">
-        <img src="./img/amor-amarillo.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Amor Amarillo</h5>
-          <p class="card-text">El primer álbum de Gustavo Cerati, grabado en su estudio casero. Presenta un sonido muy
-            íntimo, experimental new
-            wave.</p>
-          <a href="#" class="btn btn-primary amor-amarillo">Go somewhere</a>
+    <div class="swiper">
+      <section class="tarjetas__seccion swiper-wrapper">
+        <div class="card swiper-slide">
+          <img src="./img/amor-amarillo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Amor Amarillo</h5>
+            <p class="card-text">El primer álbum de Gustavo Cerati, grabado en su estudio casero. Presenta un sonido muy
+              íntimo, experimental new
+              wave.</p>
+            <a href="#" class="btn btn-primary amor-amarillo">Go somewhere</a>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./img/bocanada.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Bocanada</h5>
-          <p class="card-text">El primer disco de Cerati luego de la separación de Soda Stereo. Muestra una evolución
-            musical con elementos electrónicos y de pop experimental</p>
-          <a href="#" class="btn btn-primary bocanada">Go somewhere</a>
+        <div class="card swiper-slide">
+          <img src="./img/bocanada.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bocanada</h5>
+            <p class="card-text">El primer disco de Cerati luego de la separación de Soda Stereo. Muestra una evolución
+              musical con elementos electrónicos y de pop experimental</p>
+            <a href="#" class="btn btn-primary bocanada">Go somewhere</a>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./img/siempre-es-hoy.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Siempre es Hoy</h5>
-          <p class="card-text">Un sonido distintivamente propio, con aún más elementos electrónicos pero con melodías
-            más movidas y alegres.</p>
-          <a href="#" class="btn btn-primary siempre-es-hoy">Go somewhere</a>
+        <div class="card swiper-slide">
+          <img src="./img/siempre-es-hoy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Siempre es Hoy</h5>
+            <p class="card-text">Un sonido distintivamente propio, con aún más elementos electrónicos pero con melodías
+              más movidas y alegres.</p>
+            <a href="#" class="btn btn-primary siempre-es-hoy">Go somewhere</a>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./img/ahi-vamos.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Ahí Vamos</h5>
-          <p class="card-text">El disco más aclamado de su carrera, vuelve a conectar con sonidos rockeros y
-            alternativos.</p>
-          <a href="#" class="btn btn-primary ahi-vamos">Go somewhere</a>
+        <div class="card swiper-slide">
+          <img src="./img/ahi-vamos.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ahí Vamos</h5>
+            <p class="card-text">El disco más aclamado de su carrera, vuelve a conectar con sonidos rockeros y
+              alternativos.</p>
+            <a href="#" class="btn btn-primary ahi-vamos">Go somewhere</a>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./img/fuerza-natural.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Fuerza Natural</h5>
-          <p class="card-text">El último trabajo de Cerati, influenciado por la naturaleza y las conexiones humanas. Una
-            mezcla folk, rock y pop muy cuidadosa y detallada.</p>
-          <a href="#" class="btn btn-primary fuerza-natural">Go somewhere</a>
+        <div class="card swiper-slide">
+          <img src="./img/fuerza-natural.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fuerza Natural</h5>
+            <p class="card-text">El último trabajo de Cerati, influenciado por la naturaleza y las conexiones humanas.
+              Una
+              mezcla folk, rock y pop muy cuidadosa y detallada.</p>
+            <a href="#" class="btn btn-primary fuerza-natural">Go somewhere</a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </main>
 
 
@@ -161,6 +165,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+
 </body>
 
 </html>
